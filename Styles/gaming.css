@@ -66,9 +66,10 @@
 }
 
 
-body{
-    background-image: linear-gradient(rgb(16, 209, 243), rgb(14, 105, 73), rgb(6, 116, 135));
+body {
+background-image: radial-gradient(black, blue, red);
 }
+
 
 h2 {
     color: white;
@@ -80,7 +81,6 @@ h2 {
     font-size: 60pt;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 ul {
@@ -88,64 +88,47 @@ ul {
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
+    justify-content: space-around;
 }
 
 .item1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1;
-    width: 48%;
-    background-color: purple;
+    width: 47%;
+    background-color: rgb(18, 223, 49);
     color: white;
     font-size: 30pt;
-    flex-basis: 0%;
-    margin: 2%;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    max-width: fit-content;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
 }
 
 .item2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1;
-    width: 50%;
-    background-color: blueviolet;
+    width: 47%;
+    background-color: rgb(33, 10, 242);
     color: white;
     font-size: 30pt;
-    flex-basis: 48%;
-    margin: 2%;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
 }
 
 .item3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 2;
-    width: 50%;
-    background-color: rgb(166, 82, 175);
+    width: 100%;
+    background-color: rgb(242, 10, 10);
     color: white;
-    font-size: 30pt;
-    flex-basis: 48%;
-    margin: 2%;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    font-size: 40pt;
+    margin: 2% .89%;
+    border-style: double;
+    border-color: black;
+    border-width: 10px;
 }
 
-.item4 {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    flex: 2;
-    width: 50%;
-    background-color: rgb(107, 43, 226);
-    color: white;
-    font-size: 30pt;
-    flex-basis: 50%;
-    margin: 2%;
-    box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
-}

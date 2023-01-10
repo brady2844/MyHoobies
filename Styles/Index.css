@@ -1,14 +1,14 @@
 h1 {
-    font-size: 65pt;
+    font-size: 70pt;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font: bolder;
     text-align: center;
     color: rgb(255, 255, 255);
-    background-color: rgb(106, 96, 246);
+    background-color: darkblue;
     background-position: center;
     width: 1000px;
     margin: auto;
-    padding: 35px;
+    padding: 40px;
     border-radius: 60px;
 }
 
@@ -17,15 +17,15 @@ body {
 }
 
 h2 {
-    font-size: 30pt;
-    color: rgb(0, 0, 0);
-    padding: 19px;
+    font-size: 40pt;
+    color: rgb(0, 0, 0) !important;
     text-align: center;
-    background-color:rgb(230, 13, 154);
-    border-radius: 180px;  
-    width: 1200px;
     background-position: center;
-    margin: auto;
+    padding: 80px;
+    background-color:rgb(230, 13, 154);
+    width: 400px;
+    border-radius: 180px;  
+    display: flex; 
 }
 
 h2:hover {
@@ -36,11 +36,22 @@ h2:hover {
 
 ul {
     list-style-type: none;
+    display: flex;
 }
 
+.container {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    justify-content: space-around;
+}
 
 .item1 {
-    padding: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 47%;
 }
 
 .item1 a:link, a:hover, a:active, a:visited {
@@ -49,7 +60,10 @@ ul {
 }
 
 .item2 {
-    padding: 35PX;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 47%;
 }
 
 .item2 a:link, a:hover, a:active, a:visited {
@@ -58,22 +72,28 @@ ul {
 }
 
 .item3 {
-padding: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 47%;
 }
+
 .item3 a:link, a:hover, a:active, a:visited {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
 
 .item4 {
-padding: 35px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 47%;
 }
 
 .item4 a:link, a:hover, a:active, a:visited {
     text-decoration: none;
     color: rgb(0, 0, 0);
 }
-
 
 
 

@@ -66,8 +66,8 @@
 }
 
 
-body{
-    background-image: linear-gradient(rgb(16, 209, 243), rgb(14, 105, 73), rgb(6, 116, 135));
+body {
+    background-image: linear-gradient(orange, white, cyan);
 }
 
 h2 {
@@ -80,72 +80,74 @@ h2 {
     font-size: 60pt;
     border-radius: 10px;
     font-family: 'Times New Roman', Times, serif;
-
 }
 
 ul {
     list-style: none;
     display: flex;
     flex-wrap: wrap;
-    padding: 5px;
+    padding: 30px;
+    justify-content: space-around;
 }
 
 .item1 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1;
-    width: 48%;
-    background-color: purple;
+    width: 22%;
+    background-color: rgb(11, 145, 160);
     color: white;
     font-size: 30pt;
-    flex-basis: 0%;
-    margin: 2%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    padding: 10px;  
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    border-width: 15px;
 }
 
 .item2 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 1;
-    width: 50%;
-    background-color: blueviolet;
+    width: 68%;
+    background-color: rgb(242, 149, 10);
     color: white;
     font-size: 30pt;
-    flex-basis: 48%;
-    margin: 2%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    padding: 10px;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    border-width: 15px;
 }
 
 .item3 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 2;
-    width: 50%;
-    background-color: rgb(166, 82, 175);
+    width: 61%;
+    background-color: rgb(214, 141, 15);
     color: white;
     font-size: 30pt;
-    flex-basis: 48%;
-    margin: 2%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    padding: 10px;
+    margin-top: 4%;
+    border-style: groove;
+    border-color: rgb(255, 255, 255);
+    border-width: 15px;
 }
 
 .item4 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    flex: 2;
-    width: 50%;
-    background-color: rgb(107, 43, 226);
+    width: 29%;
+    background-color: rgb(5, 122, 168);
     color: white;
     font-size: 30pt;
-    flex-basis: 50%;
-    margin: 2%;
     box-shadow: 2px 4px 8px rgb(68, 67, 67);
-    border-radius: 18px;
+    padding: 10px;
+    margin-top: 4%;
+    border-style: groove;
+    border-color: white;
+    border-width: 15px;
 }
